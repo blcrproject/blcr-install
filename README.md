@@ -36,7 +36,7 @@ Alias Address Privkey TxHash Output_index
 ```
 startmasternode "alias" "0" "MN1"
 ```
-13. Open the Linux VPS console and type:
+13. Open the **Linux VPS console** and type:
 ```
 blacercoin-cli startmasternode local false
 ```
