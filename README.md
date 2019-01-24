@@ -2,11 +2,18 @@
 Shell script to install a [BlacerCoin Masternode](http://blacercoin.com/) on a Linux server running Ubuntu 14.04, 16.04 or 18.04. Use it on your own risk.
 
 ***
-## Installation:
+## Installation wallet (latest version):
 ```
 git clone https://github.com/blcrproject/blcr-install/
 cd blcr-install
 bash blcr-install.sh
+```
+***
+Update wallet to latest version:
+```
+cd ~/lgs-install/
+git pull
+bash lgs-update.sh
 ```
 ***
 
