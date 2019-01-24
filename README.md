@@ -9,7 +9,6 @@ cd blcr-install
 bash blcr-install.sh
 ```
 ***
-***
 ## Update wallet to latest version:
 ```
 cd ~/blcr-install/
