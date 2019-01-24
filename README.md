@@ -9,11 +9,12 @@ cd blcr-install
 bash blcr-install.sh
 ```
 ***
-Update wallet to latest version:
+***
+## Update wallet to latest version:
 ```
-cd ~/lgs-install/
+cd ~/blcr-install/
 git pull
-bash lgs-update.sh
+bash blcr-update.sh
 ```
 ***
 
