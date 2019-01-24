@@ -4,7 +4,7 @@ CONFIG_FILE='blacercoin.conf'
 CONFIGFOLDER='/root/.blacercoin'
 COIN_DAEMON='/usr/local/bin/blacercoind'
 COIN_CLI='/usr/local/bin/blacercoin-cli'
-COIN_REPO='https://github.com/blcrproject/BlacerCoin/releases/download/v1.0.0.0/blacercoin-1.0.0-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/blcrproject/BlacerCoin/releases/download/v1.0.1.0/blacercoin-1.0.1-x86_64-linux-gnu.tar.gz'
 COIN_NAME='BlacerCoin'
 COIN_PORT=24433
 
