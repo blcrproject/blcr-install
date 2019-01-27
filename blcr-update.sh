@@ -45,6 +45,8 @@ function compile_node() {
   sleep 7
   
   echo -e "Remove the old $COIN_NAME wallet from the system"
+  rm -rf $CONFIGFOLDER/blocks/ >/dev/null 2>&1
+  rm -rf $CONFIGFOLDER/chainstate/ >/dev/null 2>&1
   rm -f /usr/local/bin/blacercoin* >/dev/null 2>&1
   rm $CONFIGFOLDER/banlist.dat >/dev/null 2>&1
   rm $CONFIGFOLDER/mnpayments.dat >/dev/null 2>&1
