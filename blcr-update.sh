@@ -4,7 +4,7 @@ CONFIG_FILE='blacercoin.conf'
 CONFIGFOLDER='/root/.blacercoin'
 COIN_DAEMON='/usr/local/bin/blacercoind'
 COIN_CLI='/usr/local/bin/blacercoin-cli'
-COIN_REPO='https://github.com/blcrproject/BlacerCoin/releases/download/v1.0.2.0/blacercoin-1.0.2-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/blcrproject/BlacerCoin/releases/download/v1.0.3.0/blacercoin-1.0.3-x86_64-linux-gnu.tar.gz'
 COIN_NAME='BlacerCoin'
 COIN_PORT=24433
 
@@ -45,13 +45,13 @@ function compile_node() {
   sleep 7
   
   echo -e "Remove the old $COIN_NAME wallet from the system"
-  rm -rf $CONFIGFOLDER/blocks/ >/dev/null 2>&1
-  rm -rf $CONFIGFOLDER/chainstate/ >/dev/null 2>&1
+#  rm -rf $CONFIGFOLDER/blocks/ >/dev/null 2>&1
+#  rm -rf $CONFIGFOLDER/chainstate/ >/dev/null 2>&1
   rm -f /usr/local/bin/blacercoin* >/dev/null 2>&1
   rm $CONFIGFOLDER/banlist.dat >/dev/null 2>&1
   rm $CONFIGFOLDER/mnpayments.dat >/dev/null 2>&1
   rm $CONFIGFOLDER/fee_estimates.dat >/dev/null 2>&1
-  rm $CONFIGFOLDER/peers.dat >/dev/null 2>&1
+#  rm $CONFIGFOLDER/peers.dat >/dev/null 2>&1
   rm $CONFIGFOLDER/budget.dat >/dev/null 2>&1
   rm $CONFIGFOLDER/mncache.dat >/dev/null 2>&1
   rm $CONFIGFOLDER/debug.log >/dev/null 2>&1
